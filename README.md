@@ -29,7 +29,7 @@ Our methodology involves:
 
 ## Datasets
 
-The datasets used in this project are sourced from Kaggle and include news articles from various domains. These datasets are openly available and contain labeled examples of both real and fake news.
+The datasets used in this project are sourced from Kaggle and include news articles from various domains. The datasets (`true.csv` and `fake.csv`) are included in the `Dataset.7z` file. Please extract this file before running the code. These datasets contain labeled examples of real and fake news articles.
 
 ## Algorithms Used
 
@@ -55,15 +55,24 @@ The performance of our models is as follows:
    git clone https://github.com/yourusername/fake-news-detection.git
    cd fake-news-detection
 
-2. **Install Dependencies: Make sure you have Python installed. Then, install the required libraries**:
+2. **Extract the Dataset**: Unzip the `Dataset.7z` file to extract `true.csv` and `fake.csv`:
+```bash
+unzip Dataset.7z
+```
+   Ensure the `true.csv` and `fake.csv` files are in the same directory as the `.ipynb` file.
+   
+3. **Install Dependencies: Make sure you have Python installed. Then, install the required libraries**:
 ```bash
    pip install -r requirements.txt
 ```
-3. **Run the Models**:
+
+4. **Run the Jupyter Notebook**: Open the `CYBR604-Final_Project.ipynb` file in Jupyter Notebook:
    ```bash
-   python decision_tree.py
+   jupyter notebook CYBR604-Final_Project.ipynb
    ```
-4. **Evalute Results**
+   Follow the instructions in the notebook cells to execute the code and view the results
+   
+4. **View Results**: The notebook includes step-by-step outputs for the machine learning models and their accuracy metrics.
 
 ## References
 
