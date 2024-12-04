@@ -56,15 +56,15 @@ The performance of our models is as follows:
    cd fake-news-detection
 
 2. **Extract the Dataset**: Unzip the `Dataset.7z` file to extract `true.csv` and `fake.csv`:
-```bash
-unzip Dataset.7z
-```
-   Ensure the `true.csv` and `fake.csv` files are in the same directory as the `.ipynb` file.
+   ```bash
+   unzip Dataset.7z
+   ```
+   Ensure the `true.csv` and `fake.csv` files are in the same directory as     the `.ipynb` file.
    
 3. **Install Dependencies: Make sure you have Python installed. Then, install the required libraries**:
-```bash
+   ```bash
    pip install -r requirements.txt
-```
+   ```
 
 4. **Run the Jupyter Notebook**: Open the `CYBR604-Final_Project.ipynb` file in Jupyter Notebook:
    ```bash
