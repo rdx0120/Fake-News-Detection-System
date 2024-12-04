@@ -1,1 +1,76 @@
-This repository contains the code and resources for our project titled "Advanced Approaches to Combatting Disinformation: A Comprehensive Analysis for Fake News Detection." The project aims to tackle the proliferation of fake news using various machine learning techniques. By vectorizing news titles and analyzing word tokens, our models classify news articles as either real or fake, contributing to the ongoing efforts to ensure the accuracy and reliability of information in the digital age.
+# Fake News Detection
+
+## Overview
+
+This repository contains the code and resources for our project titled **"Advanced Approaches to Combatting Disinformation: A Comprehensive Analysis for Fake News Detection."** The project aims to tackle the proliferation of fake news using various machine learning techniques. By vectorizing news titles and analyzing word tokens, our models classify news articles as either real or fake, contributing to the ongoing efforts to ensure the accuracy and reliability of information in the digital age.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Methodology](#methodology)
+- [Datasets](#datasets)
+- [Algorithms Used](#algorithms-used)
+- [Results](#results)
+- [How to Run](#how-to-run)
+- [References](#references)
+- [Contributors](#contributors)
+
+## Introduction
+
+Fake news has emerged as a significant threat, especially in the political domain, where it can influence public opinion and cause societal harm. This project addresses the challenge of detecting fake news by leveraging machine learning models. Our approach combines various algorithms, such as Decision Trees, SVM, and Random Forest, to achieve high accuracy in classification.
+
+## Methodology
+
+Our methodology involves:
+1. **Data Collection**: We used multiple datasets from Kaggle that contain both real and fake news articles.
+2. **Feature Engineering**: We focused on vectorizing news titles and extracting linguistic features for analysis.
+3. **Model Training**: We trained multiple machine learning models, including Naive Bayes, Logistic Regression, Decision Trees, SVM, and Random Forest, to classify news articles.
+4. **Evaluation**: We evaluated the models using a confusion matrix and accuracy metrics to determine their effectiveness.
+
+## Datasets
+
+The datasets used in this project are sourced from Kaggle and include news articles from various domains. These datasets are openly available and contain labeled examples of both real and fake news.
+
+## Algorithms Used
+
+- **Naive Bayes**
+- **Logistic Regression**
+- **Support Vector Machine (SVM)**
+- **Decision Tree Learning**
+- **Random Forest**
+
+## Results
+
+The performance of our models is as follows:
+- **Decision Tree**: 99.65% accuracy
+- **Support Vector Machine (SVM)**: 99.57% accuracy
+- **Random Forest**: 99.12% accuracy
+- **Logistic Regression**: 98.83% accuracy
+- **Naive Bayes**: 94.81% accuracy
+
+## How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/fake-news-detection.git
+   cd fake-news-detection
+
+2. **Install Dependencies: Make sure you have Python installed. Then, install the required libraries**:
+```bash
+   pip install -r requirements.txt
+```
+3. **Run the Models**:
+   ```bash
+   python decision_tree.py
+   ```
+4. **Evalute Results**
+
+## References
+
+- [The long and brutal history of fake news](https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535)
+- [Fake News Detection using Deep Learning](https://www.ieee.org)
+
+## Contributors
+
+- **Parshwa Paresh Bhavsar** - [parshwa2108@tamu.edu](mailto:parshwa2108@tamu.edu)
+- **Rohan Dalvi** - [rohan.dalvi@tamu.edu](mailto:rohan.dalvi@tamu.edu)
