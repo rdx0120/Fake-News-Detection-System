@@ -80,5 +80,5 @@ The performance of our models is as follows:
 
 ## Contributors
 
-- **Parshwa Paresh Bhavsar** - [parshwa2108@tamu.edu](mailto:parshwa2108@tamu.edu)
-- **Rohan Dalvi** - [rohan.dalvi@tamu.edu](mailto:rohan.dalvi@tamu.edu)
+- **Parshwa Paresh Bhavsar** - [Email](mailto:parshwa2108@tamu.edu)
+- **Rohan Dalvi** - [Email](mailto:rohan.dalvi@tamu.edu)
