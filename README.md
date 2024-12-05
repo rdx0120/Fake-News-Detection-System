@@ -70,9 +70,8 @@ The performance of our models is as follows:
    ```bash
    jupyter notebook CYBR604-Final_Project.ipynb
    ```
-   Follow the instructions in the notebook cells to execute the code and view the results
    
-4. **View Results**: The notebook includes step-by-step outputs for the machine learning models and their accuracy metrics.
+5. **View Results**: The notebook includes step-by-step outputs for the machine learning models and their accuracy metrics.
 
 ## References
 
