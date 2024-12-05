@@ -52,8 +52,8 @@ The performance of our models is as follows:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/fake-news-detection.git
-   cd fake-news-detection
+   git clone https://github.com/yourusername/FakeNewsDetectionSystem.git
+   cd FakeNewsDetectionSystem
 
 2. **Extract the Dataset**: Unzip the `Dataset.7z` file to extract `true.csv` and `fake.csv`:
    ```bash
